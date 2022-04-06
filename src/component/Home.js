@@ -12,7 +12,7 @@ function Home() {
     <h2>Smart Phones</h2>
     <img src={phones} alt=''/>
     <p>We sell quarlity smart phones at affordable price</p>
-    <button> <Link to ="/products"></Link>View phones</button>
+    <button> <Link to ="/products">View Phones</Link></button>
     </div>
 
     <div className='card'>

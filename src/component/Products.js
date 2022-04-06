@@ -5,10 +5,10 @@ import phone3 from "../pics/Phone3.jpg"
 function Products() {
   return (
     <div>
-    <div className='smartphones'>
+    <div className='firstrow'>
 
     <div className='card'>
-    <h2>Nombo</h2>
+    <h2>iphone</h2>
     <img src={Phone1} alt=''/>
     <p>Ghc1,300</p>
     <button>Buy Me</button>
@@ -16,7 +16,7 @@ function Products() {
 
 
     <div className='card'>
-    <h2>iphone</h2>
+    <h2>samsung</h2>
     <img src={phone2} alt=''/>
     <p>Ghc 10,000</p>
     <button>Buy Me</button>
@@ -26,7 +26,7 @@ function Products() {
     <div className='card'>
     <h2>Techno</h2>
     <img src={phone3} alt=''/>
-    <p>Ghc 800</p>
+    <p>Ghc 8,00</p>
     <button>Buy Me</button>
     </div>
     </div>

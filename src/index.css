@@ -23,7 +23,7 @@ li{
 .icon{
   height: 50px;
   width: 50px;
-  padding: 20px;
+  padding: 20px 40px;
 
 }
 .header h2{
@@ -39,7 +39,7 @@ li{
   gap: 50px;
 }
 .card{
-  border: 2px solid gray;
+  border: 2px solid chocolate;
   display: flex;
   flex-direction: column;
   background-color: bisque;
@@ -57,9 +57,10 @@ text-transform: uppercase;
 }
 .card button{
   font-size: 20px;
+  width: 150px;
  margin-left: 120px;
  background-color: darksalmon;
- color: white;
+ color: blueviolet;
 }
 
 img{
